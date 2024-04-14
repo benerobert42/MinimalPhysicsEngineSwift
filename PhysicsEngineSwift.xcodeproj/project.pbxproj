@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A905A71C2BCC190C004B5CAA /* Lighting.metal in Sources */ = {isa = PBXBuildFile; fileRef = A905A71A2BCC190C004B5CAA /* Lighting.metal */; };
+		A905A71D2BCC190C004B5CAA /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A905A71B2BCC190C004B5CAA /* Shaders.metal */; };
+		A974E4E12BC9CC0200D5DF4E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974E4E02BC9CC0200D5DF4E /* App.swift */; };
+		A974E4E52BC9CC0500D5DF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A974E4E42BC9CC0500D5DF4E /* Assets.xcassets */; };
+		A974E4E82BC9CC0500D5DF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A974E4E72BC9CC0500D5DF4E /* Preview Assets.xcassets */; };
+		A974E4F02BC9CC4400D5DF4E /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974E4EF2BC9CC4400D5DF4E /* MetalView.swift */; };
+		A974E4F22BC9CC9100D5DF4E /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974E4F12BC9CC9100D5DF4E /* Renderer.swift */; };
+		A974E4F82BC9CCDA00D5DF4E /* VertexDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974E4F72BC9CCDA00D5DF4E /* VertexDescriptor.swift */; };
+		A991E81D2BCA71AD00A62016 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E81C2BCA71AD00A62016 /* Objects.swift */; };
+		A991E8212BCA7FA600A62016 /* MeshHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E8202BCA7FA600A62016 /* MeshHandler.swift */; };
+		A991E8242BCA82E400A62016 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E8232BCA82E400A62016 /* MathLibrary.swift */; };
+		A991E8262BCA98C400A62016 /* Lighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E8252BCA98C400A62016 /* Lighting.swift */; };
+		A991E8282BCA994600A62016 /* Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E8272BCA994600A62016 /* Landscape.swift */; };
+		A991E82A2BCA99A100A62016 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991E8292BCA99A100A62016 /* Camera.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A905A7192BCC190C004B5CAA /* Lighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lighting.h; sourceTree = "<group>"; };
+		A905A71A2BCC190C004B5CAA /* Lighting.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Lighting.metal; sourceTree = "<group>"; };
+		A905A71B2BCC190C004B5CAA /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A974E4DD2BC9CC0200D5DF4E /* PhysicsEngineSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsEngineSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A974E4E02BC9CC0200D5DF4E /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A974E4E42BC9CC0500D5DF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A974E4E72BC9CC0500D5DF4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A974E4E92BC9CC0500D5DF4E /* PhysicsEngineSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhysicsEngineSwift.entitlements; sourceTree = "<group>"; };
+		A974E4EF2BC9CC4400D5DF4E /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		A974E4F12BC9CC9100D5DF4E /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		A974E4F72BC9CCDA00D5DF4E /* VertexDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VertexDescriptor.swift; sourceTree = "<group>"; };
+		A991E81C2BCA71AD00A62016 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		A991E81F2BCA792800A62016 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A991E8202BCA7FA600A62016 /* MeshHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshHandler.swift; sourceTree = "<group>"; };
+		A991E8232BCA82E400A62016 /* MathLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		A991E8252BCA98C400A62016 /* Lighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lighting.swift; sourceTree = "<group>"; };
+		A991E8272BCA994600A62016 /* Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landscape.swift; sourceTree = "<group>"; };
+		A991E8292BCA99A100A62016 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A974E4DA2BC9CC0200D5DF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A974E4D42BC9CC0200D5DF4E = {
+			isa = PBXGroup;
+			children = (
+				A974E4DF2BC9CC0200D5DF4E /* PhysicsEngineSwift */,
+				A974E4DE2BC9CC0200D5DF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A974E4DE2BC9CC0200D5DF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A974E4DD2BC9CC0200D5DF4E /* PhysicsEngineSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A974E4DF2BC9CC0200D5DF4E /* PhysicsEngineSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A991E81E2BCA725300A62016 /* Physics */,
+				A991E81A2BCA714400A62016 /* Rendering */,
+				A991E8192BCA712A00A62016 /* AppAndViews */,
+				A974E4E62BC9CC0500D5DF4E /* Preview Content */,
+				A974E4E42BC9CC0500D5DF4E /* Assets.xcassets */,
+				A974E4E92BC9CC0500D5DF4E /* PhysicsEngineSwift.entitlements */,
+			);
+			path = PhysicsEngineSwift;
+			sourceTree = "<group>";
+		};
+		A974E4E62BC9CC0500D5DF4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A974E4E72BC9CC0500D5DF4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A991E8192BCA712A00A62016 /* AppAndViews */ = {
+			isa = PBXGroup;
+			children = (
+				A974E4E02BC9CC0200D5DF4E /* App.swift */,
+				A974E4EF2BC9CC4400D5DF4E /* MetalView.swift */,
+			);
+			path = AppAndViews;
+			sourceTree = "<group>";
+		};
+		A991E81A2BCA714400A62016 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				A974E4F12BC9CC9100D5DF4E /* Renderer.swift */,
+				A974E4F72BC9CCDA00D5DF4E /* VertexDescriptor.swift */,
+				A991E8202BCA7FA600A62016 /* MeshHandler.swift */,
+				A991E81C2BCA71AD00A62016 /* Objects.swift */,
+				A991E8252BCA98C400A62016 /* Lighting.swift */,
+				A991E8292BCA99A100A62016 /* Camera.swift */,
+				A991E8272BCA994600A62016 /* Landscape.swift */,
+				A991E8222BCA82E400A62016 /* Utility */,
+				A991E81B2BCA717A00A62016 /* Shaders */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		A991E81B2BCA717A00A62016 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A991E81F2BCA792800A62016 /* Common.h */,
+				A905A7192BCC190C004B5CAA /* Lighting.h */,
+				A905A71A2BCC190C004B5CAA /* Lighting.metal */,
+				A905A71B2BCC190C004B5CAA /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		A991E81E2BCA725300A62016 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		A991E8222BCA82E400A62016 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A991E8232BCA82E400A62016 /* MathLibrary.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A974E4DC2BC9CC0200D5DF4E /* PhysicsEngineSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A974E4EC2BC9CC0500D5DF4E /* Build configuration list for PBXNativeTarget "PhysicsEngineSwift" */;
+			buildPhases = (
+				A974E4D92BC9CC0200D5DF4E /* Sources */,
+				A974E4DA2BC9CC0200D5DF4E /* Frameworks */,
+				A974E4DB2BC9CC0200D5DF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsEngineSwift;
+			productName = PhysicsEngineSwift;
+			productReference = A974E4DD2BC9CC0200D5DF4E /* PhysicsEngineSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A974E4D52BC9CC0200D5DF4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A974E4DC2BC9CC0200D5DF4E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A974E4D82BC9CC0200D5DF4E /* Build configuration list for PBXProject "PhysicsEngineSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A974E4D42BC9CC0200D5DF4E;
+			productRefGroup = A974E4DE2BC9CC0200D5DF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A974E4DC2BC9CC0200D5DF4E /* PhysicsEngineSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A974E4DB2BC9CC0200D5DF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A974E4E82BC9CC0500D5DF4E /* Preview Assets.xcassets in Resources */,
+				A974E4E52BC9CC0500D5DF4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A974E4D92BC9CC0200D5DF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A905A71D2BCC190C004B5CAA /* Shaders.metal in Sources */,
+				A991E82A2BCA99A100A62016 /* Camera.swift in Sources */,
+				A991E8212BCA7FA600A62016 /* MeshHandler.swift in Sources */,
+				A991E8282BCA994600A62016 /* Landscape.swift in Sources */,
+				A974E4F82BC9CCDA00D5DF4E /* VertexDescriptor.swift in Sources */,
+				A991E8242BCA82E400A62016 /* MathLibrary.swift in Sources */,
+				A991E8262BCA98C400A62016 /* Lighting.swift in Sources */,
+				A974E4F22BC9CC9100D5DF4E /* Renderer.swift in Sources */,
+				A974E4F02BC9CC4400D5DF4E /* MetalView.swift in Sources */,
+				A991E81D2BCA71AD00A62016 /* Objects.swift in Sources */,
+				A905A71C2BCC190C004B5CAA /* Lighting.metal in Sources */,
+				A974E4E12BC9CC0200D5DF4E /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A974E4EA2BC9CC0500D5DF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A974E4EB2BC9CC0500D5DF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A974E4ED2BC9CC0500D5DF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhysicsEngineSwift/PhysicsEngineSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhysicsEngineSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PhysicsEngineSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = PhysicsEngineSwift/Rendering/Shaders/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A974E4EE2BC9CC0500D5DF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhysicsEngineSwift/PhysicsEngineSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhysicsEngineSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PhysicsEngineSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = PhysicsEngineSwift/Rendering/Shaders/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A974E4D82BC9CC0200D5DF4E /* Build configuration list for PBXProject "PhysicsEngineSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A974E4EA2BC9CC0500D5DF4E /* Debug */,
+				A974E4EB2BC9CC0500D5DF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A974E4EC2BC9CC0500D5DF4E /* Build configuration list for PBXNativeTarget "PhysicsEngineSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A974E4ED2BC9CC0500D5DF4E /* Debug */,
+				A974E4EE2BC9CC0500D5DF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A974E4D52BC9CC0200D5DF4E /* Project object */;
+}
